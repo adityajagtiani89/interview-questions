@@ -3,7 +3,7 @@ package convertNumberToWords;
 /**
  * Created by aditya.jagtiani on 4/18/18.
  */
-public class numberToWords {
+public class NumberToWords {
 
     private static final String[] thousands = {
             "",
