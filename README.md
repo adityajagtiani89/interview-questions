@@ -15,3 +15,25 @@ For example:
     Z -> 26
     AA -> 27
     AB -> 28
+
+3. Calculate the number of islands in a 2D array of 0's and 1's. An island is a contiguous series of 1's connected horizontally 
+and vertically only. Diagonal connections are not valid. 
+```For example: 
+             11110
+             11010
+             11000
+             00000
+
+Number of Islands = 1
+```
+
+```
+11000
+11000
+00100
+00011
+
+Number of Islands = 3
+```
+            
+            
