@@ -4,6 +4,7 @@
 import convertNumberToWords.*;
 import maxOccurringUnbannedWord.*;
 import excelColumnNameToNumber.*;
+import numberOfIslands.NumberOfIslands;
 
 public class InterviewQuestionsMain {
 
@@ -15,5 +16,11 @@ public class InterviewQuestionsMain {
                 "ball, the hit BALL flew far after it was hit.", banned));
 
         System.out.println("Corresponding Excel Column Number = " + ExcelColumnNameToNumber.excelNameToNumber("AA"));
+
+        char [][] input = {{'1', '1', '1', '1', '0'},
+                {'1', '1', '0', '1','0'},
+                {'1', '1', '0', '0', '0'},
+                {'0', '0', '0', '0', '0'}};
+        System.out.println("Number of Islands = " + NumberOfIslands.numIslands(input));
     }
 }
